@@ -99,7 +99,7 @@ plusBtn.addEventListener('click',()=>{
         let plusTotal = ++currentNum; // 숫자로 변환한 변수를 1증가 해서 담은 증가변수
         countNumSpan.dataset.count = plusTotal; // 증가된 변수를 해당 data 속성에 업데이트
         countNumSpan.textContent = plusTotal; // 증가된 변수를 사용자가 보는 화면에 출력
-    }): alert('최대주문수량입니다')
+    })(): alert('최대주문수량입니다')
 })
 
 minusBtn.addEventListener('click', ()=>{
